@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="shortcut icon" href="images/fav.png" />
+</head>
+
+
+
+<h1>Krono's Master</h1>
+
+<style>
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+
+    h1 {
+    font-family: monospace;
+    text-align: center;
+    color: #0000FF;
+    font-size: 4.0em;
+    text-shadow: 0.1em 0.1em 0.2em whitesmoke;
+    webkit-text-stroke-width: 2px;
+    webkit-text-stroke-color: #FFFFFF;
+}
+
+
+
+h2{
+    font-family: fantasy;
+    text-align: center;
+    color: #0000FF;
+    font-size: 3.5em;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+    body {
+        background: url(images/2.png) no-repeat;
+    }
+
+    .max-width {
+        max-width: 350px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 1%;
+        background-color: ;
+        box-shadow: 0 0 5px #FFF;
+        text-align: center;
+    }
+
+      .max-width2 {
+        max-width: 300px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 1%;
+        background-color: ;
+        box-shadow: 0 0 5px #FFF;
+        text-align: center;
+    }
+
+    .max-width3 {
+        max-width: 300px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 1%;
+        background-color: ;
+        box-shadow: 0 0 5px #FFF;
+        text-align: center;
+    }
+
+    .max-width4 {
+        max-width: 300px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 1%;
+        background-color: ;
+        box-shadow: 0 0 5px #FFF;
+        text-align: center;
+    }
+
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-family: 'Segoe UI';
+        color: #FFFFFF;
+        font-size: 1.5em;
+        transition: all .5s;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: #a1c0d1;
+    }
+
+    button:active {
+        background-color: #111;
+    }
+
+    .bg-green {
+        background-color: #0000FF;
+    }
+
+    .bg-yellow {
+        background-color: #0000FF;
+    }
+
+    .bg-red {
+        background-color: #0000FF;
+    }
+</style>
+
+<body>
+            <div class="max-width4">
+
+            <div class="max-width3">
+
+                <div class="max-width2">
+
+            <div class="max-width">
+        <h2 id="counter">00:00:00</h2>
+        <br>
+        <button onclick="start();" class="bg-green">Iniciar</button>
+        <br>
+        <br>
+        <button onclick="pause();" class="bg-yellow">Pausar</button>
+        <br>
+        <br>
+        <button onclick="stop();" class="bg-red">Zerar</button>
+        
+    </div>
+    </div>
+    </div>
+    </div>
+<script src="cron.js"></script>
+</body>
+
+</html>
